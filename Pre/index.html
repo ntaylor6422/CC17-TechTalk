@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/minified/introjs.min.css">
+</head>
+<body>
+
+    <div class="bg-cover"></div>
+    <!--NavBar Start--->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navBarWrap">
+        <div class="container-lg">
+            <a id="nav-logo" href="" class="navbar-brand">Good<span class="alt-color">Meat</span></a>
+            <button class="navbar-toggler" id="navbar-tog" type="button" data-toggle="collapse" data-target="#navBarContent" aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navBarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav justify-content-end w-100"">
+                    <li class="nav-item">
+                        <a href="" class="nav-link top-nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link top-nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link top-nav-link" id="location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link top-nav-link" id="login">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NavBar End -->
+
+    <!--Top Content Start-->
+    <main class="d-lg-flex position-relative main-content">
+        <div class="row w-100">
+            <div class="container land-col">
+                <h2>Taste the sizzle!</h2>
+                <p>Welcome to an authentic Italian experience in Tokyo! We have only the finest cuts of meat for the best prices! Located in a traditional market street in downtown Tokyo! Come on in and enjoy a fine meal and drink!</p>
+                <button href="#">Check out our Menu!</button>
+            </div>
+        </div>
+    </main>    
+    <!-- Top Content End-->
+    
+    <!-- Carousel and About Start-->
+    <div class="container-fluid about-content mt-3">
+        <div class="about-bg"></div>
+        <div class="row h-100 mt-4">
+            <div class="col-md-6 about-col">
+                <div class="about w-100">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, reiciendis repellat quidem numquam consequatur nobis temporibus alias nam fuga! Consequuntur error dolor nesciunt accusantium aut facere hic corporis culpa enim?</p>
+                </div>
+            </div>
+            <div class="col-md-6 order-first">
+                <div class="carousel-wrap">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/outside.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/foodimg.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/118472060.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel and About End-->
+
+    <!-- Menu Content Start -->
+    <section class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Our Menu</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque ipsa labore temporibus repellat expedita voluptatum et repellendus perferendis perspiciatis tempore obcaecati, laudantium doloremque pariatur.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav>
+                        <div class="justify-content-md-center" id="navbarsExample10">
+                          <ul id="navMenu">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Appetizers</a>
+                              <div class="dropdown-menu" aria-labelledby="dropdown10">
+                                <a class="dropdown-item" href="#">Appetizers</a>
+                                <a class="dropdown-item" href="#">Salad</a>
+                                <a class="dropdown-item" href="#">Cheese</a>
+                              </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mains</a>
+                              <div class="dropdown-menu" aria-labelledby="dropdown10">
+                                <a class="dropdown-item" href="#">Meat</a>
+                                <a class="dropdown-item" href="#">Pasta</a>
+                              </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drinks</a>
+                              <div class="dropdown-menu" aria-labelledby="dropdown10">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                    
+                </div>
+            </div>
+            <div class="row" id="menuItemsGrid">
+                <div class="col-md-6 courses">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="./assets/course1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>豪華爛漫！特選サーロインのグリル！</h4>
+                                <p>肉屋直営ならではの高品質サーロインのグリルをご用意！！ コースのみでのご用意となりますのでご了承下さい。</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥5000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 courses">
+                    <div class="menu-item" id="popular">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="./assets/course2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>特選黒毛和牛が楽しめる</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nemo culpa facere?</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥4500</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 courses">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="./assets/course3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>あそび豚の肩ロース楽しめる</h4>
+                                <p>料理8品＋2時間飲み放題（L.O.30分前)
+                                </p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥4000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 appetizers-appetizers">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="./assets/zensaimori.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>前菜盛り合わせ</h4>
+                                <p>3種盛 / 5種盛</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥580 ~ ¥880</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 appetizers-appetizers">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="#" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>シャルキュトリー</h4>
+                                <p>ハム盛り合わせ</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥680</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 appetizers-appetizers">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="#" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>お肉屋さんのローストポーク</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nemo culpa facere?</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥580</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 appetizers-appetizers">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="#" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>本日のピクルス</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nemo culpa facere?</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥480</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 appetizers-appetizers">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="#" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>オリーブ盛り合わせ</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nemo culpa facere?</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥280</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 appetizers-appetizers">
+                    <div class="menu-item">
+                        <div class="row">
+                            <div class="col-3 align-self-center">
+                                <div class="menuItemImg">
+                                    <img src="#" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h4>鶏白レバーのムース</h4>
+                                <p>～季節のジャム添え～</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="menuItemPrice text-center">¥480</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Content End -->
+
+    <!-- Location Start -->
+
+    <section class="section map-section">
+        <div class="row location-row">
+                <div class="map-wrap">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8C%97%E5%8C%BA%E8%B5%A4%E7%BE%BD1-39-4%20%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E5%A4%A7%E9%B5%AC8%E7%95%AA%E9%A4%A81%E9%9A%8E&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://www.embedgooglemap.net/en/">google maps websites</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--  Location End  -->
+
+    <!--  Footer Start  -->
+    <footer class="container-fluid">
+        <div class="row foot-row">
+            <div class="col-md-4 social-icons">
+                <h4 class="footer-titles">Social Media</h4>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-md-4 contact-foot">
+                <h4 class="footer-titles">Contact Information</h4>
+                <p>東京都北区赤羽1-39-4 サクセス大鵬8番館1階</p>
+                <p>03-6454-4629</p>
+                <p>ExampleEmail@goodmeat.jp</p>
+            </div>
+            <div class="col-md-4 times">
+                <h4 class="footer-titles">Hours of Operation</h4>
+                <div class="hours">【月～水・金～日】</div>
+                <div class="hours-time">12:00～20:00</div>
+                <div class="dayofftitle">定休日</div>
+                <div class="day-off">木曜日</div>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Footer End  -->
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+<script>
+
+ 
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f4a100886a.js" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</script>
+</body>
+</html>
